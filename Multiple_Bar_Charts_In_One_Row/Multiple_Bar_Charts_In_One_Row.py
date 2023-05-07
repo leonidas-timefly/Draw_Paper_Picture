@@ -72,5 +72,5 @@ handles, labels = ax[3].get_legend_handles_labels()
 ax[3].legend_.remove()
 
 fig.legend(handles, labels, loc='lower center', ncol=4, bbox_to_anchor=[0.5, -0.14], frameon=True, fontsize=16)
-plt.savefig('example.pdf', dpi=200, bbox_inches='tight',pad_inches=0.1)
+plt.savefig('example2.pdf', dpi=200, bbox_inches='tight',pad_inches=0.1)
 plt.show()
