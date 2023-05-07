@@ -90,5 +90,5 @@ handles, labels = ax[3].get_legend_handles_labels()
 ax[3].legend_.remove()
 
 fig.legend(handles, labels, loc='lower center', ncol=6, bbox_to_anchor=[0.5, -0.1], frameon=True, fontsize=16)
-plt.savefig('comAPI.pdf', dpi=200, bbox_inches='tight',pad_inches=0.1)
+plt.savefig('example.pdf', dpi=200, bbox_inches='tight',pad_inches=0.1)
 plt.show()
